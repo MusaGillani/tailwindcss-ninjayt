@@ -56,7 +56,7 @@ function Home() {
 
           <div className="mt-8">
             {/* cards go here */}
-            <div className="bg-white rounded overflow-hidden shadow-md relative">
+            <div className="card">
               <img
                 src="/stew.jpg"
                 alt="stew"
@@ -68,7 +68,39 @@ function Home() {
                   Recipe by mario
                 </span>
               </div>
-              <div className="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+              <div className="badge">
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                src="/noodles.jpg"
+                alt="noodles"
+                className="w-full h-32 sm:h-48 object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">Veg Noodles</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by mario
+                </span>
+              </div>
+              <div className="badge">
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div className="card">
+              <img
+                src="/curry.jpg"
+                alt="curry"
+                className="w-full h-32 sm:h-48 object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">Tofu Curry</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by mario
+                </span>
+              </div>
+              <div className="badge">
                 <span>25 mins</span>
               </div>
             </div>
