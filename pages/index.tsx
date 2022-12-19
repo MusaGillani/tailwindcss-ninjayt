@@ -33,7 +33,7 @@ function Home() {
         </nav>
       </div>
       {/* end nav */}
-      <main className="px-16 py-6">
+      <main className="px-16 py-6 bg-gray-100">
         <div className="flex justify-center md:justify-center">
           <a href="#" className="text-primary">
             Log in
@@ -56,11 +56,17 @@ function Home() {
 
           <div className="mt-8">
             {/* cards go here */}
-            <div>
-              <img src="/stew.jpg" alt="stew" />
-              <div>
-                <span>5 bean chilli stew</span>
-                <span>Recipe by mario</span>
+            <div className="bg-white rounded overflow-hidden shadow-md">
+              <img
+                src="/stew.jpg"
+                alt="stew"
+                className="w-full h-32 sm:h-48 object-cover"
+              />
+              <div className="m-4">
+                <span className="font-bold">5 bean chilli stew</span>
+                <span className="block text-gray-500 text-sm">
+                  Recipe by mario
+                </span>
               </div>
             </div>
           </div>
