@@ -7,7 +7,7 @@ function Home() {
         {/* nav */}
         <nav>
           <div>
-            <h1 className="font-bold uppercase">
+            <h1 className="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/">Food Ninja</a>
             </h1>
           </div>
@@ -31,7 +31,7 @@ function Home() {
         </nav>
       </div>
       {/* end nav */}
-      <main>
+      <main className="px-16 py-6">
         <div>
           <a href="#">Log in </a>
           <a href="#">Sign up </a>
@@ -44,9 +44,11 @@ function Home() {
 
         {/* section for showing card */}
         <div>
-          <h4 className="font-bold">Latest recipes</h4>
+          <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">
+            Latest recipes
+          </h4>
 
-          <div>
+          <div className="mt-8">
             {/* cards go here */}
             <div>
               <img src="/stew.jpg" alt="stew" />
@@ -57,9 +59,11 @@ function Home() {
             </div>
           </div>
 
-          <h4 className="font-bold">Most popular recipes</h4>
+          <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">
+            Most popular recipes
+          </h4>
 
-          <div>{/* card go here */}</div>
+          <div className="mt-8">{/* card go here */}</div>
 
           <div>
             <div>Load more</div>
