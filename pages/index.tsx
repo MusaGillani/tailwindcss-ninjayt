@@ -34,11 +34,14 @@ function Home() {
       </div>
       {/* end nav */}
       <main className="px-16 py-6 bg-gray-100 md:col-span-2">
-        <div className="flex justify-center md:justify-center">
-          <a href="#" className="text-primary">
+        <div className="flex justify-center md:justify-end">
+          <a href="#" className="btn text-primary border-primary md:border-2">
             Log in
           </a>
-          <a href="#" className="text-primary ml-2">
+          <a
+            href="#"
+            className="btn text-primary ml-2 border-primary md:border-2"
+          >
             Sign up
           </a>
         </div>
@@ -113,7 +116,7 @@ function Home() {
           <div className="mt-8">{/* card go here */}</div>
 
           <div className="flex justify-center">
-            <div className="bg-secondary-100 text-secondary-200 ">
+            <div className="btn bg-secondary-100 text-secondary-200 ">
               Load more
             </div>
           </div>
