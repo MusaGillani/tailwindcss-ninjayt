@@ -2,7 +2,7 @@
 function Home() {
   return (
     // content wrapper
-    <div className="text-gray-600">
+    <div className="text-gray-600 font-body">
       <div>
         {/* nav */}
         <nav>
