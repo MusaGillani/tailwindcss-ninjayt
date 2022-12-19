@@ -2,8 +2,8 @@
 function Home() {
   return (
     // content wrapper
-    <div className="text-gray-600 font-body">
-      <div>
+    <div className="text-gray-600 font-body grid md:grid-cols-3">
+      <div className="md:col-span-1">
         {/* nav */}
         <nav>
           <div>
@@ -33,7 +33,7 @@ function Home() {
         </nav>
       </div>
       {/* end nav */}
-      <main className="px-16 py-6 bg-gray-100">
+      <main className="px-16 py-6 bg-gray-100 md:col-span-2">
         <div className="flex justify-center md:justify-center">
           <a href="#" className="text-primary">
             Log in
@@ -54,7 +54,7 @@ function Home() {
             Latest recipes
           </h4>
 
-          <div className="mt-8">
+          <div className="mt-8 grid lg:grid-cols-3 gap-10">
             {/* cards go here */}
             <div className="card">
               <img
