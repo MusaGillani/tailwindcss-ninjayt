@@ -8,7 +8,9 @@ function Home() {
         <nav>
           <div>
             <h1 className="font-bold uppercase p-4 border-b border-gray-100">
-              <a href="/">Food Ninja</a>
+              <a href="/" className="text-green-500 sm:text-red-500">
+                Food Ninja
+              </a>
             </h1>
           </div>
           <ul>
@@ -32,7 +34,7 @@ function Home() {
       </div>
       {/* end nav */}
       <main className="px-16 py-6">
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-center">
           <a href="#" className="text-primary">
             Log in
           </a>
